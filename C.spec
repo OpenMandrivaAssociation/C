@@ -14,7 +14,6 @@ Source:		http://labs.cybozu.co.jp/blog/kazuho/archives/c/%{name}-%{version}.tar.
 URL:		http://labs.cybozu.co.jp/blog/kazuhoatwork/2006/01/c.php
 License:	GPL
 Group:		Development/C
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 C (pronounced large-C) is a pseudo-interpreter of the C programming language.
