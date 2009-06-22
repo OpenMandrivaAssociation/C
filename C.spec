@@ -1,6 +1,6 @@
 %define name	C
 %define version	0.05
-%define release %mkrel 2
+%define release %mkrel 3
 
 %define major
 %define libname %mklibname %name %major
@@ -12,7 +12,7 @@ Release: 	%{release}
 
 Source:		http://labs.cybozu.co.jp/blog/kazuho/archives/c/%{name}-%{version}.tar.bz2
 URL:		http://labs.cybozu.co.jp/blog/kazuhoatwork/2006/01/c.php
-License:	GPL
+License:	GPLv2+
 Group:		Development/C
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
