@@ -43,3 +43,26 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/%name
 %{_mandir}/man1/*
 
+
+
+%changelog
+* Wed Dec 08 2010 Oden Eriksson <oeriksson@mandriva.com> 0.05-4mdv2011.0
++ Revision: 616411
+- the mass rebuild of 2010.0 packages
+
+* Mon Jun 22 2009 Jérôme Brenier <incubusss@mandriva.org> 0.05-3mdv2010.0
++ Revision: 388035
+- fix license tag
+
+* Mon Jun 16 2008 Thierry Vignaud <tv@mandriva.org> 0.05-2mdv2009.0
++ Revision: 220019
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+- import C
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+
+* Wed May 24 2006 Austin Acton <austin@mandriva.org> 0.05-1mdk
+- initial package
