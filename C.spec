@@ -1,6 +1,6 @@
 %define name	C
 %define version	0.05
-%define release %mkrel 4
+%define release 5
 
 %define major
 %define libname %mklibname %name %major
