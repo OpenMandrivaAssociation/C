@@ -11,7 +11,7 @@ Version: 	%{version}
 Release: 	%{release}
 
 Source:		http://labs.cybozu.co.jp/blog/kazuho/archives/c/%{name}-%{version}.tar.bz2
-URL:		http://labs.cybozu.co.jp/blog/kazuhoatwork/2006/01/c.php
+URL:		https://labs.cybozu.co.jp/blog/kazuhoatwork/2006/01/c.php
 License:	GPLv2+
 Group:		Development/C
 BuildRoot:	%{_tmppath}/%{name}-buildroot
