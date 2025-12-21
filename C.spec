@@ -16,6 +16,11 @@ License:	GPLv2+
 Group:		Development/C
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 C (pronounced large-C) is a pseudo-interpreter of the C programming language.
 
